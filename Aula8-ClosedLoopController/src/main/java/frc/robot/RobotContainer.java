@@ -5,6 +5,7 @@
 package frc.robot;
 
 import frc.robot.Constants.OperatorConstants;
+import frc.robot.commands.MegaKitPositionCMD;
 import frc.robot.subsystens.MegaKit;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.InstantCommand;
@@ -20,7 +21,7 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  public final MegaKit m_MegaKit = new MegaKit();
+  public static MegaKit m_MegaKit = new MegaKit();
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
   private final CommandXboxController m_driverController =
@@ -45,6 +46,9 @@ public class RobotContainer {
   {
     m_driverController.b().whileTrue(new RunCommand(()-> m_MegaKit.runMotor(0.2), m_MegaKit))
                           .onFalse(new InstantCommand(()-> m_MegaKit.stopMotor(), m_MegaKit));
+
+    m_driverController.x().whileTrue(new MegaKitPositionCMD(30));
+    m_driverController.a().whileTrue(new MegaKitPositionCMD(0));
   }
 
   /**
