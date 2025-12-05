@@ -1,2 +1,25 @@
-# MegaJava-br
+# 🔷 MegaJava-br 💻
 
+---
+
+## 🔹#1 MEGAJAVA-BR: PRIMEIROS PASSOS DA PROGRAMAÇÃO (Eletrônica + FRC GameTools + WPILib)🔌
+
+---
+
+## 🔹#2 MEGAJAVA-BR: PROGRAMANDO UM CHASSI TANK🤖
+
+---
+
+## 🔹#3 MEGAJAVA-BR: ENTENDA O COMMAND ROBOT🗒️
+
+---
+
+## 🔹#4 MEGAJAVA-BR: FINALIZANDO O SEU ROBÔ - SISTEMA DE INTAKE 🕹️
+
+---
+
+## 🔹#5 MEGAJAVA-BR: PID PARTE 1 - ENTENDA O KP 📈
+
+---
+
+## 🔹#6 MEGAJAVA-BR: PID PARTE 2 - ENTENDA O KI & KD 📉
