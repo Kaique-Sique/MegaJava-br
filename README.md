@@ -7,8 +7,4 @@ Bem vindos ao repositorio oficial da equipe **MegaZord #7563**. Esse documento p
 
 **MegaZord GitHub Organization:** *https://github.com/MegaZord7563*
 
-## 
-
-
-> "Together we are strong " – MegaZord 7563
 
